@@ -1,0 +1,229 @@
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  /* color: var(--body); */
+  background-color: #eeeeee;
+  transition: 0.35s;
+}
+.dakrModeBody {
+  background-color: #222222;
+  transition: 0.35s;
+}
+.card{
+  transition: 0.35s !important;
+}
+
+.darkMode {
+  background-color: #282828 !important;
+  color: #eeeeee;
+  transition: 1s;
+}
+/* .card-galeri-dark{
+  background-color: #282828
+} */
+.text-light {
+  color: #eeeeee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark);
+}
+/* a{
+  color: var(--dark);
+  text-decoration: none;
+} */
+
+/* navbar */
+.navbar {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+/* end navbar */
+
+/* navar hover line bottom desktop */
+@media (min-width: 992px) { 
+  .nav-link::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 0%;
+    margin: auto;
+    margin-bottom: -8px;
+    transition: 0.6s;
+  }
+  .nav-link:hover::after {
+    width: 50%;
+  }
+ }
+
+/* end navar hover line bottom */
+
+.hero {
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero .container-fluid {
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+.hero::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+.hero img{
+  width: 200px;
+}
+
+/* container */
+
+/* class row tentang saya */
+#tentang-saya .fw-normal,
+span {
+  font-weight: 600 !important;
+}
+#tentang-saya .fw-normal,
+p {
+  font-weight: 500 !important;
+}
+#tentang-saya a {
+  width: 35%;
+}
+
+.card-tentang-saya {
+  box-shadow: var(--box-shadow);
+  background-color: whitesmoke;
+  padding: 25px;
+}
+.skill-progress .progress {
+  margin: 4px 0;
+}
+/* end class row tentang saya */
+
+/* class row pendidikan */
+.card-effect {
+  box-shadow: var(--box-shadow);
+  background-color: whitesmoke;
+  padding: 25px;
+  transition: all 0.35s ease-in;
+}
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+  background-color: #eeeeee;
+}
+/* end class row pendidikan */
+
+/* end container */
+
+/* container */
+/* galeri */
+.card-galeri {
+  box-shadow: var(--box-shadow);
+  background-color: whitesmoke;
+  padding: 25px;
+  transition: all 0.35s ease;
+}
+.card-galeri:hover {
+  padding: 0;
+}
+#galeri .col-lg {
+  width: 40%;
+}
+/* end galeri */
+
+/* kalkulator */
+.kalkulator {
+  color: #eeeeee;
+  width: 300px;
+  background-color: #181818;
+  margin: 50px auto;
+  padding: 7px;
+  border-radius: 5px;
+}
+#layar-kalkulator {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #181818;
+  font-size: 25px;
+  font-weight: bold;
+  color: #181818;
+  padding: 7px 5px;
+  text-align: right;
+}
+.container-tombol {
+  display: flex;
+  flex-wrap: wrap;
+}
+#section-kalkulator .tombol {
+  display: flex;
+  width: 25%;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 70px;
+  border: 1px solid #303030;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+}
+#section-kalkulator .tombol:nth-child(4n + 1) {
+  border-left: 1px solid #303030;
+}
+#section-kalkulator .tombol:hover {
+  background-color: #cc0000;
+  cursor: pointer;
+}
+#nol {
+  flex-grow: 1;
+}
+#section-kalkulator .operator {
+  background-color: #454545;
+}
+#hitung {
+  background-color: #ffa64a;
+}
+#section-kalkulator #hitung:hover {
+  background-color: orange;
+}
+/* end kalkulator */
+
+/* button dark */
+/* #buttonMode {
+  display: inline-block;
+  position: absolute;
+  top: 43rem;
+  margin: 1rem;
+  right: 0;
+} */
+input#tombolMode {
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+}
+/* dark button dark */
+/* end container*/

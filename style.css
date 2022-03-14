@@ -98,6 +98,9 @@ h6 {
   width: 200px;
 }
 
+.hero .iconHero i{
+  color: white !important;
+}
 /* container */
 
 /* class row tentang saya */

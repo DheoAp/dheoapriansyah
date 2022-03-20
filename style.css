@@ -110,7 +110,7 @@ ul li a.dropdown-item:hover{
 /* class row tentang saya */
 #tentang-saya .fw-normal,
 span {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 #tentang-saya .fw-normal,
 p {
@@ -153,6 +153,7 @@ p {
   background-color: whitesmoke;
   padding: 25px;
   transition: all 0.35s ease;
+  overflow: hidden;
 }
 .card-galeri:hover {
   padding: 0;
@@ -233,4 +234,8 @@ input#tombolMode {
   height: 2rem;
 }
 /* dark button dark */
+
+/* hubungi saya */
+
+/* end hubungi saya */
 /* end container*/

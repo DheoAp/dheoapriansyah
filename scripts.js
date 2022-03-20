@@ -24,7 +24,7 @@ tombol.addEventListener("click", function (e) {
 // ========== dark mode ========== 
 const mode = document.getElementById("tombolMode");
 const dark = document.querySelectorAll('.card');
-const judulLight = document.querySelectorAll('.judul');
+const judulLight = document.querySelectorAll('.judul, #hubungi-saya');
 
 // dark mode untuk semua card, body, text galeri 
 mode.addEventListener("click", function () {

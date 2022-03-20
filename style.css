@@ -76,6 +76,9 @@ ul li a.dropdown-item:hover{
   a.hover-line:hover::after {
     width: 50%;
   }
+  .card-galeri{
+    overflow: hidden;
+  }
  }
 
 /* end navar hover line bottom */

@@ -1,0 +1,98 @@
+@media (min-width: 768px) {
+  .navbar {
+    padding: 40px;
+  }
+  .navbar img {
+    width: 120px;
+  }
+  .container.hero img {
+    width: 550px;
+  }
+  .container.hero {
+    padding-left: 17px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .hero {
+    margin-top: 0;
+  }
+  .text-1 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .form input {
+    width: 55%;
+    height: 45px;
+    margin-bottom: 0;
+    margin-right: 36px;
+  }
+  .btn-started {
+    width: 45%;
+  }
+  .hero h1,
+  .textP-1 {
+    text-align: left;
+  }
+  .hero .textP-1 {
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+    padding: 0;
+  }
+  .section-b {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .section-2 {
+    padding: 17px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section h1 {
+    text-align: left;
+  }
+  .section img.illustration-2 {
+    width: 550px;
+    height: 550px;
+  }
+  .border-bottom {
+    width: 168px;
+  }
+  .card-section-2 {
+    width: 50%;
+  }
+  .textP-2 {
+    padding: 0;
+  }
+  .section-3 {
+    display: flex;
+  }
+  .section-3 .sub-section-3 {
+    text-align: left;
+    width: 50%;
+  }
+  .sub-section-3 p {
+    padding-right: 100px;
+  }
+  .btn-section-3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-sub {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

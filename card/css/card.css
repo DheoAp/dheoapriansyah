@@ -1,0 +1,21 @@
+#card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  border-radius: 10px;
+}
+.image{
+  width: 100%;
+  margin: auto;
+}
+hr{
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 1em 0;
+    padding: 0;
+}
